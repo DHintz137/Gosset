@@ -4,7 +4,7 @@
 \alias{spell_LV}
 \title{spell_LV}
 \usage{
-spell_LV(dat, corr, threshold = 4)
+spell_LV(dat, corr, threshold = 4, ...)
 }
 \arguments{
 \item{dat}{a character vector with misspellings to be corrected}

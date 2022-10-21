@@ -22,7 +22,7 @@ library(stringdist)
 #' corr <- c("Wheatland", "Torrington", "Rawlins", "Laramie")
 #' spell_LV(dat, corr,threshold = 3)
 
-spell_LV <- function(dat, corr,threshold = 4){
+spell_LV <- function(dat, corr,threshold = 4, ...){
   # converting "" to NA
   dat[nchar(dat)==0 & !is.na(dat)]<-NA
   
@@ -32,7 +32,7 @@ spell_LV <- function(dat, corr,threshold = 4){
     if(is.na(dat[i])){
       tempNew <- NA
     }else{
-      V<- stringdist(dat[i],corr,method='lv')
+      V<- stringdist(dat[i],corr,method='lv', ...)
       if(min(V) >= threshold){
         tempNew <- "INCONCLUSIVE"
       }else{
