@@ -11,6 +11,7 @@ library(stringdist)
 #' @param dat a character vector with misspellings to be corrected 
 #' @param corr a character vector with correct spellings for reference
 #' @param threshold a number to set level of sensitivity 
+#' @param ... ellipse for end user flexibility 
 #'
 #' @author Daniel Hintz
 #' @importFrom stringdist stringdist

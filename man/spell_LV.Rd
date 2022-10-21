@@ -12,6 +12,8 @@ spell_LV(dat, corr, threshold = 4, ...)
 \item{corr}{a character vector with correct spellings for reference}
 
 \item{threshold}{a number to set level of sensitivity}
+
+\item{...}{ellipse for end user flexibility}
 }
 \value{
 a character vector
