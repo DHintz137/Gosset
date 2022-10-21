@@ -1,11 +1,10 @@
 Package: Gosset
-Title: Miscellaneous functions 
-Version: 0.0.0.1
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
 Authors@R: 
-    person("Daniel", "Hintz", , "dhintz137t@gmail.com", role = c("aut", 
-"cre"),
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Gets things done
+Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
