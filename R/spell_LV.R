@@ -13,7 +13,7 @@ library(stringdist)
 #' @param threshold a number to set level of sensitivity 
 #'
 #' @author Daniel Hintz
-#' @import stringdist
+#' @importFrom stringdist stringdist
 #' @return a character vector
 #' @export
 #'
