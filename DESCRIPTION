@@ -4,7 +4,7 @@ Version: 0.0.0.1
 Authors@R: 
     person("Daniel", "Hintz", , "dhintz137@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Gets things done.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
