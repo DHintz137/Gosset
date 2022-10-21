@@ -27,3 +27,6 @@ dat <- c(NA, "Rawln", NA, NA, "", "Torrinton", "Laraie", "Laamie","Torringtn","W
 corr <- c("Wheatland", "Torrington", "Rawlins", "Laramie")
 spell_LV(dat, corr,threshold = 3)
 }
+\author{
+Daniel Hintz
+}

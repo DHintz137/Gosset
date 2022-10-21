@@ -7,6 +7,7 @@ Authors@R:
 Description: Gets things done.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
+Imports: stringdist (>= 0.9.9)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
