@@ -1,8 +1,4 @@
-# Levenshtein distance function -------------------------------------------
-
-library(stringdist)
-
-#' spell_LV 
+#' Spell checker with threshold 
 #'
 #' Spell check correction using Levenshtein distance
 #' 
