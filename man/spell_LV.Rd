@@ -2,7 +2,7 @@
 % Please edit documentation in R/spell_LV.R
 \name{spell_LV}
 \alias{spell_LV}
-\title{spell_LV}
+\title{Spell checker with threshold}
 \usage{
 spell_LV(dat, corr, threshold = 4, ...)
 }

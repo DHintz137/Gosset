@@ -20,6 +20,12 @@
 #' spell_LV(dat, corr,threshold = 3)
 
 spell_LV <- function(dat, corr,threshold = 4, ...){
+if(!is.character(dat)){
+  stop("dat is not of class `character`; it has class '", class(dat), "'.")
+}
+if(!is.character(corr)){                      
+  stop("corr is not of class `character`; it has class '", class(corr), "'.")
+} 
   # converting "" to NA
   dat[nchar(dat)==0 & !is.na(dat)]<-NA
   
