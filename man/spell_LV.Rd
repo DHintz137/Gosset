@@ -7,13 +7,13 @@
 spell_LV(dat, corr, threshold = 4, ...)
 }
 \arguments{
-\item{dat}{a character vector with misspellings to be corrected}
+\item{dat}{a character vector with misspellings to be corrected.}
 
-\item{corr}{a character vector with correct spellings for reference}
+\item{corr}{a character vector with correct spellings for reference.}
 
-\item{threshold}{a number to set level of sensitivity}
+\item{threshold}{a number to set level of sensitivity.}
 
-\item{...}{ellipse for end user flexibility}
+\item{...}{ellipse in \code{stringdist(., ...)} allows for user flexibility in calculating string distance for \code{spell_LV()}.}
 }
 \value{
 a character vector
@@ -22,7 +22,7 @@ a character vector
 Spell check correction using Levenshtein distance
 }
 \details{
-As threshold gets smaller than 4 we are being more restrictive (more precise) in what we we allow our algorithm correct, hence If you want to see what values are more borderline set a more restrictive threshold of 3
+As threshold gets smaller than 4 we are being more restrictive (more precise) in what we we allow our algorithm correct, hence If you want to see what values are more borderline set a more restrictive threshold of 3.
 }
 \examples{
 dat <- c(NA, "Rawln", NA, NA, "", "Torrinton", "Laraie", "Laamie","Torringtn","Whatld","Rwlins")
