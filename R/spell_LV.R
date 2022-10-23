@@ -2,14 +2,12 @@
 #'
 #' Spell check correction using Levenshtein distance
 #' 
-#' As threshold gets smaller than 4 we are being more restrictive (more precise) in what we we allow our algorithm 
-correct, hence If you want to see what values are more borderline set a more restrictive threshold of 3.
+#' As threshold gets smaller than 4 we are being more restrictive (more precise) in what we we allow our algorithm correct, hence If you want to see what values are more borderline set a more restrictive threshold of 3.
 #' 
 #' @param dat a character vector with misspellings to be corrected. 
 #' @param corr a character vector with correct spellings for reference.
 #' @param threshold a number to set level of sensitivity. 
-#' @param ... ellipse in \code{stringdist(., ...)} allows for user flexibility in calculating string distance for  
-\code{spell_LV()}. 
+#' @param ... ellipse in \code{stringdist(., ...)} allows for user flexibility in calculating string distance for \code{spell_LV()}. 
 #'
 #' @author Daniel Hintz
 #' @importFrom stringdist stringdist
