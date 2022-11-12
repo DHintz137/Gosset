@@ -2,4 +2,6 @@
 
 export(spell_LV)
 export(spell_LV_inc)
+export(tex_sp)
+import(knitr)
 importFrom(stringdist,stringdist)
