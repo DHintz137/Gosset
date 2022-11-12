@@ -3,6 +3,7 @@
 export(ind)
 export(spell_LV)
 export(spell_LV_inc)
+export(tab)
 export(tex_sp)
 import(knitr)
 importFrom(stringdist,stringdist)
