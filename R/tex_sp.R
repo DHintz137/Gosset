@@ -6,8 +6,8 @@
 #'
 #' @param spacing a character 
 #'
-#'@import knitr
-#' @return 
+#' @import knitr
+#'  
 #' 
 #' @author Daniel Hintz
 #' @export
