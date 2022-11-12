@@ -4,12 +4,13 @@
 #'
 #' Intended use is as a workhorse function for tex(), though can be used independently 
 #'
-#' @param spacing a character 
+#' @param spacing The character "single" or "double" 
 #'
 #' @import knitr
 #'  
 #' 
 #' @author Daniel Hintz
+#' @return
 #' @export
 #'
 #' @examples

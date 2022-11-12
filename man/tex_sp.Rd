@@ -7,7 +7,7 @@
 tex_sp(spacing = "single")
 }
 \arguments{
-\item{spacing}{a character}
+\item{spacing}{The character "single" or "double"}
 }
 \description{
 Single or double spacing for Rmarkdowns outputting to pdf
