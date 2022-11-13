@@ -9,6 +9,7 @@ Authors@R:
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Gets things done.
 License: MIT + file LICENSE
+Depends: R (>= 3.6.0)
 Imports:
      stringdist (>= 0.9.9),
      knitr,
