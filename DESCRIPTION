@@ -11,7 +11,10 @@ Description: Gets things done.
 License: MIT + file LICENSE
 Imports: 
 	stringdist (>= 0.9.9),
- 	knitr
+ 	knitr,
+	kableExtra,
+	finalfit,
+	dplyr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
