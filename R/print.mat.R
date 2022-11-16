@@ -4,10 +4,10 @@
 #' @param ... ellispe not set
 #'
 #' @author Daniel Hintz
+#' @import magrittr
 #' @import kableExtra
 #' @import knitr
 #' @import finalfit
-#' @import dplyr
 #' @importFrom utils capture.output
 #' @return A matrix 
 #' @export
