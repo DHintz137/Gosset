@@ -8,6 +8,7 @@
 #' @import knitr
 #' @import finalfit
 #' @import dplyr
+#' @importFrom utils capture.output
 #' @return A matrix 
 #' @export
 
