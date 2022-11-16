@@ -4,7 +4,7 @@
 \alias{print.mat}
 \title{Automated Print Formatting for matrices}
 \usage{
-\method{print}{mat}(x, ...)
+\method{print}{mat}(x)
 }
 \arguments{
 \item{x}{A matrix}
