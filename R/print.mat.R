@@ -5,8 +5,7 @@
 #'
 #' @author Daniel Hintz
 #' @import magrittr
-#' @import kableExtra
-#' @import knitr
+#' @import kableExtra knitr
 #' @import finalfit
 #' @importFrom utils capture.output
 #' @importFrom tibble as_tibble
