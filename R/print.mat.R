@@ -9,12 +9,13 @@
 #' @import knitr
 #' @import finalfit
 #' @importFrom utils capture.output
+#' @importFrom tibble as_tibble
 #' @return A matrix 
 #' @export
 
-print.mat <- function(x) {
+print.mat <- function(x, ...) {
   if(length(as.vector(as.matrix(x))) < 3){
-    x %>% round_tidy(., 5) %>% capture.output() %>% cat()
+    round_tidy(x, 5) %>% capture.output() %>% cat()
   } else{
     # small dimensions (cond.1)
     # ncol                            #nrow
