@@ -3,6 +3,7 @@
 #' @param x a dataframe
 #' @param ... an ellipse
 #'
+#' @author Daniel Hintz
 #' @return a formated dataframe
 #' @export
 

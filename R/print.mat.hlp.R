@@ -3,6 +3,7 @@
 #' @param x a vector
 #' @param ... an ellipse 
 #'
+#' @author Daniel Hintz
 #' @return a vector
 #' @export
 

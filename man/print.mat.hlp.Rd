@@ -17,3 +17,6 @@ a vector
 \description{
 Helper function for print.mat
 }
+\author{
+Daniel Hintz
+}

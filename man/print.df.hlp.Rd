@@ -17,3 +17,6 @@ a formated dataframe
 \description{
 Helper functon for print.df
 }
+\author{
+Daniel Hintz
+}
