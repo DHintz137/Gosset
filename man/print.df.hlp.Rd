@@ -4,12 +4,10 @@
 \alias{print.df.hlp}
 \title{Helper functon for print.df}
 \usage{
-\method{print}{df.hlp}(x, ...)
+\method{print}{df.hlp}(x)
 }
 \arguments{
 \item{x}{a dataframe}
-
-\item{...}{an ellipse}
 }
 \value{
 a formated dataframe
