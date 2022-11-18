@@ -3,11 +3,11 @@
 #' @param x a vector
 #' @param ... an ellipse 
 #'
+#' @return NULL
 #' @author Daniel Hintz
-#' @return a vector
 #' @export
 
-print.mat.hlp <- function(x, ...) {
+printMatHlp <- function(x, ...) {
   # less than 3 values (cond.1)
   if(length(as.vector(as.matrix(x))) < 3){
     cat("cond.1: nobs. < 3, see print.mat")

@@ -3,7 +3,7 @@
 S3method(print,df)
 S3method(print,df.hlp)
 S3method(print,mat)
-S3method(print,mat.hlp)
+export(printMatHlp)
 export(printS3)
 export(spell_LV)
 export(spell_LV_inc)
