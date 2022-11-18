@@ -42,4 +42,4 @@ print.df  <- function(x,...) {
                       font_size = 9.5,full_width = F) %>% 
         asis_output()
     }
-  }}
+  
