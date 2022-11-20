@@ -10,7 +10,7 @@
 #' @return a dataframe
 #' @export
 
-print.df  <- function(x,...) {
+print_df  <- function(x,...) {
   # small dimensions (cond.1)
   if(dim(as.matrix(x))[2] ==1 & dim(as.matrix(x))[1] <= 38){
     knitr::kable(

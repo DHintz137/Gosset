@@ -1,4 +1,4 @@
-#' Helper functon for print.df
+#' Helper functon for print_df
 #'
 #' @param x a dataframe
 #' @param ... an ellipse
@@ -7,7 +7,7 @@
 #' @return a formated dataframe
 #' @export
 
-print.df.hlp  <- function(x,...) {
+print_df_hlp  <- function(x,...) {
   # small dimensions (cond.1)
   if(dim(as.matrix(x))[2] ==1 & dim(as.matrix(x))[1] <= 38){
     cat("cond.1: nrow <= 38 AND ncol == 1, see print.df")

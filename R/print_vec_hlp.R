@@ -1,4 +1,4 @@
-#' Helper function for print.mat
+#' Helper function for print_vec
 #'
 #' @param x a vector
 #' @param ... an ellipse 
@@ -7,7 +7,7 @@
 #' @author Daniel Hintz
 #' @export
 
-printMatHlp <- function(x, ...) {
+print_vec_hlp <- function(x, ...) {
   # less than 3 values (cond.1)
   if(length(as.vector(as.matrix(x))) < 3){
     cat("cond.1: nobs. < 3, see print.mat")

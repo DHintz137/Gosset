@@ -12,7 +12,7 @@
 #' @return A matrix 
 #' @export
 
-print.mat <- function(x, ...) {
+print_vec <- function(x, ...) {
   if(length(as.vector(as.matrix(x))) < 3){
     round_tidy(x, 5) %>% capture.output() %>% cat()
   } else{
