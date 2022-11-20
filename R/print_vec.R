@@ -43,7 +43,7 @@ print_vec <- function(x, ...) {
           booktabs = T,
           caption = ""
         ) %>% # styling
-          kable_styling(latex_options = c("HOLD_position","scale_down"),
+          kable_styling(latex_options = c("HOLD_position"),
                         font_size = 9.5,full_width = F) %>% 
           asis_output()
       }}}
