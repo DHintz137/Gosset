@@ -4,10 +4,7 @@
 \alias{printS3}
 \title{Automatically Format Printing}
 \usage{
-printS3(hash = "###")
-}
-\arguments{
-\item{hash}{a character indicating hashes of which length will be hidden}
+printS3()
 }
 \description{
 Automatically Format Printing
