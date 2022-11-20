@@ -19,5 +19,15 @@ hide_cm <- function(hash = "###", switch = TRUE){
   }
   knitr::knit_hooks$set(source = hook_in)
   message("Note: recommended use is turn on and off for only for where it is needed")
+  } else{
+    if(switch == FALSE){
+      hook_in <- function(x, options) {
+        x <- x[!grepl(paste0("^","\\s+"), x)]
+        paste0("```r\n",
+               paste0(x, collapse="\n"),
+               "\n```")
+      }
+      knitr::knit_hooks$set(source = hook_in)
+    }
   }
 }
