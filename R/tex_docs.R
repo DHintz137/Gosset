@@ -5,15 +5,16 @@
 #'
 #' @return
 #' @export
+#' @importFrom utils download.file
 #'
 #' @examples
 
 tex_docs <- function(pream = TRUE, bib = TRUE){
   if(pream == TRUE){
-    suppressWarnings({cat(readLines("https://www.dropbox.com/s/bx8bs0iiq2xdsyp/preamble.tex?raw=1"), sep = "\n", file = "preamble.tex")})
+    download.file("https://www.dropbox.com/s/bx8bs0iiq2xdsyp/preamble.tex?raw=1", destfile="preamble.tex")
   }
   if(bib == TRUE){
-    suppressWarnings({cat(readLines("https://www.dropbox.com/s/6csr2h7436lk9jm/references.bib?raw=1"), sep = "\n", file = "references.bib")})
+    download.file("https://www.dropbox.com/s/4scmx2s55s0k8vv/references.bib?raw=1", destfile="references.bib")
     message("Note: Example only! Download your own references in .bib from google shcolor")
   }
 }
