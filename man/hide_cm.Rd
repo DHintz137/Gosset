@@ -4,10 +4,12 @@
 \alias{hide_cm}
 \title{Hide in-code comments of specified number of hashtags}
 \usage{
-hide_cm(hash = "###")
+hide_cm(hash = "###", switch = TRUE)
 }
 \arguments{
 \item{hash}{character of hashes to indicate which comments to hide}
+
+\item{switch}{a Boolean. Switch for on and off.}
 }
 \description{
 Hide in-code comments of specified number of hashtags
