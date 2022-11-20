@@ -8,6 +8,5 @@
 printS3 <- function(hash = "###"){
   registerS3method("knit_print", "data.frame", print_df)
   registerS3method("knit_print", "numeric", print_vec)
-  code_lab()
   hide_cm(hash = hash)
 }
