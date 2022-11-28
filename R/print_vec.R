@@ -14,14 +14,14 @@
 
 print_vec <- function(x, ...) {
   if(length(as.vector(as.matrix(x))) < 3){
-    round_tidy(x, 5) %>% capture.output() %>% cat()
+    round_tidy(x, getOption("digits")) %>% capture.output() %>% cat()
   } else{
     # small dimensions (cond.1)
     # ncol                            #nrow
     if(dim(as.matrix(x))[2] ==1 & dim(as.matrix(x))[1] <= 38){
       knitr::kable(
         x, align = "c",
-        digits = 3,
+        digits = getOption("digits"),
         format="latex",
         booktabs = T,
         caption = ""
@@ -38,7 +38,7 @@ print_vec <- function(x, ...) {
         #dimensions fit asis (cond.3)
         knitr::kable(
           x, align = "c",
-          digits = 3,
+          digits = getOption("digits"),
           format="latex",
           booktabs = T,
           caption = ""
